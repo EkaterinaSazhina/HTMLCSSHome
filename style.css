@@ -1,21 +1,21 @@
 @font-face {
-  font-family: 'Gilroy-Bold' ;
-  src: url(./fonts/Gilroy-Bold.woff2);
+	font-family: "Gilroy-Bold";
+	src: url(./fonts/Gilroy-Bold.woff2);
 }
 
 @font-face {
-  font-family: 'Gilroy-Medium' ;
-  src: url(./fonts/Gilroy-Medium.woff2);
+	font-family: "Gilroy-Medium";
+	src: url(./fonts/Gilroy-Medium.woff2);
 }
 
 @font-face {
-  font-family: 'Gilroy-Regular';
-  src: url(./fonts/Gilroy-Regular.woff2);
+	font-family: "Gilroy-Regular";
+	src: url(./fonts/Gilroy-Regular.woff2);
 }
 
 @font-face {
-  font-family: 'Gilroy-Semibold';
-  src: url(./fonts/Gilroy-Semibold.woff2);
+	font-family: "Gilroy-Semibold";
+	src: url(./fonts/Gilroy-Semibold.woff2);
 }
 
 * {
@@ -26,7 +26,7 @@
 
 body {
 	scroll-behavior: smooth;
-	background: rgb(255, 255, 255);;
+	background: rgb(255, 255, 255);
 }
 
 img {
@@ -34,49 +34,72 @@ img {
 	max-width: 100%;
 }
 
-.container{
-  min-width: 1170px;
-  margin: 0;
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
 }
 
-.header{
-  padding: 12px 0px;
-  margin-bottom: 96px;
+.header {
+	padding: 12px 0px;
+	margin-bottom: 96px;
 }
 
-.navigation{}
-
-.navigation a{
-  font-size: 14px;
+.navigation {
 }
 
-.main{
-  margin-bottom: 164px;
+.navigation a {
+	font-size: 14px;
 }
 
-.mainContent{}
-
-.mainContent__left{}
-
-.mainContent__left h2{
-  color: rgb(0, 0, 0);
-  font-family: Gilroy-Bold;
-  font-size: 60px;
-  font-weight: 400;
-  text-transform: uppercase;
-  margin-bottom: 17px;
+.main {
+	margin-bottom: 164px;
 }
 
-.mainContent__left p{
-  color: rgb(136, 136, 136);
-font-family: Gilroy-Medium;
-font-size: 20px;
-font-weight: 400;
-margin-bottom: 37px;
+.mainContent {
 }
 
-.mainContent_leftSide-btnList button{
-  border-radius: 50px;
-  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
-  background: rgb(242, 88, 34);
+.mainContent__left {
 }
+
+.mainContent__left h2 {
+	color: rgb(0, 0, 0);
+	font-family: Gilroy-Bold;
+	font-size: 60px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 17px;
+}
+
+.mainContent__left p {
+	color: rgb(136, 136, 136);
+	font-family: Gilroy-Medium;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 37px;
+}
+
+.mainContent_leftSide-btnList button {
+	border-radius: 50px;
+	background: rgb(242, 88, 34);
+	color: rgb(255, 255, 255);
+	padding: 15px 35px 15px 35px;
+	font-family: Gilroy-Bold;
+	font-size: 15px;
+	font-weight: 400;
+	border: none;
+	cursor: pointer;
+}
+
+.mainContent_leftSide-btnList a {
+	color: rgb(170, 170, 170);
+	font-family: Gilroy-Bold;
+	font-size: 15px;
+	font-weight: 400;
+	border: none;
+	cursor: pointer;
+}
+
+.footer {
+	margin-bottom: 100px;
+}
+.logos {}
