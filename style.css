@@ -44,6 +44,15 @@ img {
 	margin-bottom: 96px;
 }
 
+.link a {
+	color: rgb(0, 0, 0);
+	font-family: Gilroy-Medium;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+
 .navigation {
 }
 
@@ -102,4 +111,5 @@ img {
 .footer {
 	margin-bottom: 100px;
 }
-.logos {}
+.logos {
+}
