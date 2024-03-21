@@ -51,9 +51,17 @@ img {
 	font-weight: 400;
 }
 
-
+.link{
+	display: flex;
+	justify-content: space-between;
+	min-width: 573px;
+}
 
 .navigation {
+	display: flex;
+	justify-content: center;
+	width: 1170px;
+	gap: 500px;
 }
 
 .navigation a {
@@ -65,11 +73,20 @@ img {
 }
 
 .mainContent {
+	display: flex;
+	justify-content: space-between;
+	gap: 39px;
 }
 
-.mainContent__left {
+.mainContent__p {
+	max-width: 466px;
 }
 
+.mainContent_leftSide-btnList{
+	display: flex;
+	align-items: center;
+	gap:72px;
+}
 .mainContent__left h2 {
 	color: rgb(0, 0, 0);
 	font-family: Gilroy-Bold;
@@ -112,4 +129,8 @@ img {
 	margin-bottom: 100px;
 }
 .logos {
+	display: flex;
+	justify-content: flex-end;
+	width: 1170px;
+	gap:48px;
 }
